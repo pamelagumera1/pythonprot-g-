@@ -162,7 +162,7 @@ wordcloud = WordCloud(
 
 plt.imshow(wordcloud)
 plt.axis("off")
-plt.savefig('./my_twitter_wordcloud_2.png', dpi=300)
+plt.savefig('./twitter_wc.png', dpi=300)
 plt.show()
 
 
